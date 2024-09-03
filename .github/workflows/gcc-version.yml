@@ -60,7 +60,7 @@ jobs:
           - { gcc: '10' }
     steps:
       - name: Get dist artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: dist
 
